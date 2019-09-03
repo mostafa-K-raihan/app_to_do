@@ -1,5 +1,6 @@
 <template>
   <div class="login">
+    <img alt="logo" src="../assets/logo.png" />
     <h3>Sign In</h3>
     <input type="text" placeholder="Email" v-model="email" /><br />
     <input type="password" placeholder="Password" v-model="pwd" /><br />
